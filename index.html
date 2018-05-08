@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+	<title>Tic Tac Toe</title>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Rock+Salt|Anton" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="script.js"></script>
+</html>
+<body>
+	<div id="container">
+		<div id="container2">
+		<div id="game-box">
+			<div class="fields first-row first-column" id="a1"></div>
+			<div class="fields first-row" id="a2"></></div>
+			<div class="fields first-row" id="a3"></></div>
+			<div class="fields first-column" id="b1"></></div>
+			<div class="fields" id="b2"></></div>
+			<div class="fields" id="b3"></></div>
+			<div class="fields first-column" id="c1"></></div>
+			<div class="fields" id="c2"></></div>
+			<div class="fields" id="c3"></></div>
+			<div id="choose-symbol-box">
+				<div id="choose-symbol-title">Please choose your symbol:
+				</div><!--choose-symbol-title-->
+				<div id="choose-symbol-choice">
+					<div class="symbols" id="X">X</div>
+					<div class="symbols" id="O">O</div>
+				</div><!--number-of-players-choice-->
+			</div><!--choose-symbol-box-->
+			<div id="you-win">You Won</div>
+			<div id="cpu-win">CPU Won</div>
+			<div id="player-one-win">Player One Won</div>
+			<div id="player-two-win">Player Two Won</div>
+			<div id="draw">Draw</div>
+			
+		</div><!--game-box-->
+		<div id="scoreboard">
+		<div id="score-title">Score</div>
+		<div class="player-score">Player One:</div>
+		<div class="player-score">Player Two:</div>
+		<div class="score" id="score-player-one">0</div>
+		<div class="score" id="score-player-two">0</div>
+		
+		</div>
+		<div id="restart-frame">
+			
+				<button type="button" id="restart">Restart</button>
+		
+		</div><!--restart-frame-->
+		</div><!--container2-->
+	</div><!--container-->
+</body>

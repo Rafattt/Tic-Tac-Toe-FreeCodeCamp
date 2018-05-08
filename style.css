@@ -1,0 +1,259 @@
+
+
+html, body {
+	position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+	background: url(back.jpg);
+
+	
+}
+#container1 {
+
+	
+    height: 700px;
+	background: url(back.jpg);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#container2 {
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+    height: 700px;
+	background: url(back.jpg);
+	width: 900px;
+	
+}
+
+#game-box {
+	height: 600px;
+	width: 548px;
+	background-color: white;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 7px 10px 5px -2px rgba(0,0,0,0.47);
+	-moz-box-shadow: 7px 10px 5px -2px rgba(0,0,0,0.47);
+	box-shadow: 7px 10px 5px -2px rgba(0,0,0,0.47);
+	background: url(bg2.png);
+	
+	
+
+}
+
+.fields {
+	width: 170px;
+	height: 170px;
+	color: white;
+	float: left;
+	text-align: center;
+	font-size: 194px;
+	line-height: 180px;
+	font-family: 'Indie Flower', cursive;
+	cursor:pointer;
+	
+	
+	
+}
+
+.first-row {
+		margin-top:30px;
+}
+
+.first-column {
+	margin-left:13px;
+}
+
+
+#choose-symbol-box {
+	background-color: black;
+	height: 600px;
+	width: 548px;
+	margin:auto;
+	position: relative;
+	display:block;
+	background: url(bg2.png);
+	-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+	
+	
+}
+
+#choose-symbol-title {
+	position: absolute;
+	color:white;
+	text-align: center;
+	margin-left: 15px;
+	padding-top:60px;
+	font-size: 34px;
+	font-family: 'Rock Salt', cursive;
+}
+
+.symbols {
+	position: relative;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	float: left;
+	font-size: 74px;
+	margin-left: 150px;
+	top: -310px;
+}
+
+.symbols:hover {
+	cursor:pointer;	
+	color:gray;
+}
+
+#you-win {
+font-family: 'Anton', sans-serif;
+	color: gold;
+	font-size: 80px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:-320px;
+	width:300px;
+	z-index:5;
+	display:none;
+}
+
+#cpu-win {
+font-family: 'Anton', sans-serif;
+	color: gold;
+	font-size: 80px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:-320px;
+	width:300px;
+	z-index:5;
+	display:none;
+}
+
+#player-one-win {
+font-family: 'Anton', sans-serif;
+	color: gold;
+	font-size: 80px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:-320px;
+	width:500px;
+	z-index:5;
+	display:none;
+}
+
+#player-two-win {
+font-family: 'Anton', sans-serif;
+	color: gold;
+	font-size: 80px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:-320px;
+	width:500px;
+	z-index:5;
+	display:none;
+}
+
+
+#draw {
+font-family: 'Anton', sans-serif;
+	color: gold;
+	font-size: 80px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:-320px;
+	width:300px;
+	z-index:5;
+	display:none;
+}
+
+#scoreboard {
+	height: 400px;
+	width: 250px;
+	position: relative;
+	top: -550px;
+	left: -200px;
+	background: url(score.png);
+	-ms-transform: rotate(-2deg); /* IE 9 */
+    -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+    transform: rotate(-2deg);
+}
+
+#score-title {
+	text-align: center;
+	margin-top: 30px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 44px;
+	color: blue;
+	text-decoration: underline;
+}
+
+.player-score{
+	font-family: 'Indie Flower', cursive;
+	float: left;
+	margin-left:26px;
+	font-size: 18px;
+	color: blue;
+}
+
+.score {
+	font-family: 'Indie Flower', cursive;
+	float: left;
+	margin-left:65px;
+	font-size: 58px;
+	color: blue;
+}
+
+#restart-frame {
+	height: 70px;
+	width: 130px;
+	top: -800px;
+	position:relative;
+	background-color: #F0FFFF;
+	left: 900px;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+#restart {
+	background-color: rgb(244,67,54);
+	position: relative;
+	border-radius: 5px;
+	width: 100px;
+	height: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top:10px;
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+#restart:hover {
+	background-color: rgb(255,0,0);
+	cursor: pointer;
+	
+}
